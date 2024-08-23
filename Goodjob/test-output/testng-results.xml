@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-04T21:27:32 EDT" name="Default suite" finished-at="2024-05-04T21:27:43 EDT" duration-ms="11309">
+    <groups>
+    </groups>
+    <test started-at="2024-05-04T21:27:32 EDT" name="Default test" finished-at="2024-05-04T21:27:43 EDT" duration-ms="11309">
+      <class name="com.nice.lo.Goodjob.login_scroll">
+        <test-method signature="funtime()[pri:0, instance:com.nice.lo.Goodjob.login_scroll@fa49800]" started-at="2024-05-04T21:27:32 EDT" name="funtime" finished-at="2024-05-04T21:27:43 EDT" duration-ms="11274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- funtime -->
+      </class> <!-- com.nice.lo.Goodjob.login_scroll -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

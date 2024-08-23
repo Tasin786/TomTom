@@ -1,0 +1,40 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify search result",
+        "description": "",
+        "id": "this-is-our-first-feature;verify-search-result",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "open our application",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Enter Monitor in search field",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "This is our first feature",
+    "description": "",
+    "id": "this-is-our-first-feature",
+    "keyword": "Feature",
+    "uri": "Rain/Happy.feature"
+  }
+]

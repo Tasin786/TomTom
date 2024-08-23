@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user login",
+        "description": "",
+        "id": "this-feature-is-for-verify-loging-activity;verify-user-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1849834500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open banking \"\u003cURL\u003e\" application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 14
+                }
+              ],
+              "location": "UserLogin.open_banking_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 934047100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click account link",
+            "match": {
+              "location": "UserLogin.click_account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 946901400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter user name and password and Click login",
+            "match": {
+              "location": "UserLogin.enter_user_name_and_password_and_Click_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8134205200,
+              "error_message": "org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event\n  (failed to check if window was closed: disconnected: Unable to receive message from renderer)\n  (Session info: MicrosoftEdge\u003d126.0.2592.87)\nBuild info: version: \u00274.20.0\u0027, revision: \u0027866c76ca80\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.18\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [624d3ab7910ef9ab05a8b2db12a6efdc, findElement {value\u003dLogout, using\u003dlink text}]\nCapabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.87, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52889}, msedge: {msedgedriverVersion: 125.0.2535.79 (7e3dd970e483..., userDataDir: C:\\Users\\TASINT~1\\AppData\\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52889/devtoo..., se:cdpVersion: 126.0.2592.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 624d3ab7910ef9ab05a8b2db12a6efdc\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy24.click(Unknown Source)\r\n\tat banking.pageaction.BankingProfilePageAction.verify_user_login_successfully(BankingProfilePageAction.java:17)\r\n\tat bankingStepDefination.UserLogin.verify_user_login_successfully(UserLogin.java:41)\r\n\tat ✽.Then verify user login successfully(UserLogin.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "verify user login successfully",
+            "match": {
+              "location": "UserLogin.verify_user_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@nice"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is for verify loging activity",
+    "description": "",
+    "id": "this-feature-is-for-verify-loging-activity",
+    "keyword": "Feature",
+    "uri": "UserLogin.feature"
+  }
+]
